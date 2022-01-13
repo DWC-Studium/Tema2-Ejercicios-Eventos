@@ -1,0 +1,10 @@
+<h1>7. Formulario interactivo</h1>
+<p>La empresa Entretenimientos GrupoStudium, S.L. nos ha pedido que implementemos un formulario de contacto preparado para añadir un sistema de validación propio que se activará cuando se envíe el formulario.</p>
+<p>Sólo necesitan una función que muestre una alerta, ya que la alerta será sustituida por el código de validación en una fase posterior. El código proporcionado es el siguiente:</p>
+
+        <form id="contacto" method="post">
+          <label>Nombre:</label><input type="text" name="nombre"/><br>
+          <label>Correo:</label><input type="text" name="correo"/><br>
+          <label>Mensaje:</label><textarea name="mensaje"></textarea><br>
+          <button>Enviar</button>
+        </form>
